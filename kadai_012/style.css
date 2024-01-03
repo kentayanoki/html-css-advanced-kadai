@@ -490,3 +490,43 @@ footer {
   color: #ffffff;
   float: right;
 }
+
+/* 導入企業（case） */
+#case {
+  margin: 0px 40px;
+  width: 100%;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+}
+
+li {
+  width: 33%;
+  margin: 20px;
+}
+
+.case-card {
+  background-color: #FFFFFF;
+  min-height: 400px;
+  text-shadow: rgba(0, 0, 0, 0.2)  5px 5px 15px;
+}
+
+.case-img {
+  width: 100%;
+}
+
+.case-info {
+  padding: 10px 20px;
+}
+
+.case-name {
+  color: #2710d5;
+  font-size: 19px;
+}
+
+.case-content{
+  font-size: 14px;
+}
